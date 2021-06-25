@@ -5,7 +5,7 @@ import { RoomCode } from '../components/RoomCode'
 import {useParams} from 'react-router-dom'
 import "../styles/button.scss"
 import "../styles/room.scss"
-import { FormEvent, useEffect, useState } from 'react'
+import { FormEvent, useState } from 'react'
 import { useAuth } from '../hooks/useAuth'
 import { database } from '../services/firebase'
 import { Question } from '../components/Question'
@@ -99,8 +99,12 @@ return(
                 key={question.id}
                 content={question.content}
                 author={question.author}
+                isAnswered={question.isAnswered}
+                isHighlighted={question.isHighlighted}
               > 
-                <button
+                {/* quando uma pergunta não for respondida, entao. */}
+                {!question.isAnswered && (
+                  <button
                   className={`like-button ${question.likeId ? 'liked' : ''}`}
                   type="button"
                   aria-label="Marcar como gostei"  
@@ -112,6 +116,7 @@ return(
                   </svg>
 
                 </button>
+                )}
               </ Question>
 
             )
