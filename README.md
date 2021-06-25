@@ -12,5 +12,6 @@
 </p>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/media/henrique/Henrique_Armazen/nlwtoge/letmeask" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="<pre>/media/henrique/Henrique_Armazen/nlwtoge/letmeask
+</pre>" />
 </h1>
