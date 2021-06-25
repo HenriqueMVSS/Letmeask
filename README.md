@@ -12,5 +12,5 @@
 </p>
 
 <h1 align="center">
-  <<img src="./public/Login.png" alt="Demonstração">
+  <img src="./public/finaly.png" alt="Demonstração">
 </h1>
