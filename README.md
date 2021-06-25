@@ -12,5 +12,5 @@
 </p>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/telaauth.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/media/henrique/Henrique_Armazen/nlwtoge/letmeask" />
 </h1>
